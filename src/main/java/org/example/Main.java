@@ -1,14 +1,8 @@
 package org.example;
 
 
-
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
-
-import static org.example.MeetingUtils.countOverlappingMeetings;
 
 public class Main {
     public static void main(String[] args) {
@@ -49,7 +43,7 @@ public class Main {
         passportsAndNames.putAll(passportsAndNames2);
 //        System.out.println(passportsAndNames);
 
-        for (Map.Entry entry: passportsAndNames.entrySet()) {
+        for (Map.Entry entry : passportsAndNames.entrySet()) {
 
             System.out.println(entry.getKey());
 
